@@ -1,0 +1,555 @@
+D:\My Project\Desktop\TBS\MPS\MPS\bin\Debug\MPS.exe.config
+D:\My Project\Desktop\TBS\MPS\MPS\bin\Debug\MPS.exe
+D:\My Project\Desktop\TBS\MPS\MPS\bin\Debug\MPS.pdb
+D:\My Project\Desktop\TBS\MPS\MPS\bin\Debug\MPS.xml
+D:\My Project\Desktop\TBS\MPS\MPS\bin\Debug\MPSLib.dll
+D:\My Project\Desktop\TBS\MPS\MPS\bin\Debug\MPSLib.pdb
+D:\My Project\Desktop\TBS\MPS\MPS\bin\Debug\MPSLib.xml
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.vbprojResolveAssemblyReference.cache
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.Resources.resources
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.frmMstAccess.resources
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.frmMstAccessDet.resources
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.frmMstBusinessPartner.resources
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.frmMstBusinessPartnerDet.resources
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.frmMstBusinessPartnerHistory.resources
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.frmMstChartOfAccount.resources
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.frmMstChartOfAccountAssign.resources
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.frmMstChartOfAccountAssignItem.resources
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.frmMstChartOfAccountDet.resources
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.frmMstChartOfAccountGroup.resources
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.frmMstChartOfAccountGroupDet.resources
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.frmMstCompany.resources
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.frmMstCompanyDet.resources
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.frmMstItem.resources
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.frmMstItemDet.resources
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.frmMstItemHistory.resources
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.frmMstModules.resources
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.frmMstModulesAccess.resources
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.frmMstModulesDet.resources
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.frmMstPaymentReferences.resources
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.frmMstPaymentReferencesDet.resources
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.frmMstPaymentTerm.resources
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.frmMstPaymentTermDet.resources
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.frmMstProgram.resources
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.frmMstProgramDet.resources
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.frmMstProgramModules.resources
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.frmMstSalesDiscount.resources
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.frmMstSalesDiscountDet.resources
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.frmMstStatus.resources
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.frmMstStatusDet.resources
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.frmmstStatusModules.resources
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.frmMstUOM.resources
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.frmMstUOMDet.resources
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.frmMstUser.resources
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.frmMstUserChangePassword.resources
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.frmMstUserDet.resources
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.frmMstUserUserAccess.resources
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.frmMstUserUserAccessDuplicate.resources
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.frmSysChooseCompany.resources
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.frmSysJournalPost.resources
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.frmSysLogin.resources
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.frmSysMain.resources
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.frmTraReceive.resources
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.frmTraReceiveDet.resources
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.frmTraReceiveListOutstandingUsage.resources
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.frmTraSales.resources
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.frmTraSalesDet.resources
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.frmTraSalesPrintBonFaktur.resources
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.frmViewCompany.resources
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.frmViewProgram.resources
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.frmViewProgramCompany.resources
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.rptBonFaktur.resources
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.rptBonTimbang.resources
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.rptDeliveryOrder.resources
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.usFormRemarks.resources
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.vbproj.GenerateResource.Cache
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.exe.licenses
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.exe
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.xml
+D:\My Project\Desktop\TBS\MPS\MPS\obj\Debug\MPS.pdb
+C:\Project\Desktop\Trading-TBS\MPS\MPS\bin\Debug\MPS.exe.config
+C:\Project\Desktop\Trading-TBS\MPS\MPS\bin\Debug\MPS.exe
+C:\Project\Desktop\Trading-TBS\MPS\MPS\bin\Debug\MPS.pdb
+C:\Project\Desktop\Trading-TBS\MPS\MPS\bin\Debug\MPS.xml
+C:\Project\Desktop\Trading-TBS\MPS\MPS\bin\Debug\MPSLib.dll
+C:\Project\Desktop\Trading-TBS\MPS\MPS\bin\Debug\MPSLib.pdb
+C:\Project\Desktop\Trading-TBS\MPS\MPS\bin\Debug\MPSLib.xml
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.vbprojResolveAssemblyReference.cache
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.Resources.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstAccess.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstAccessDet.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstBusinessPartner.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstBusinessPartnerAssign.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstBusinessPartnerAssignItem.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstBusinessPartnerDet.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstBusinessPartnerHistory.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstBusinessPartnerPrice.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstChartOfAccount.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstChartOfAccountAssign.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstChartOfAccountAssignItem.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstChartOfAccountDet.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstChartOfAccountGroup.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstChartOfAccountGroupDet.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstCompany.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstCompanyDet.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstItem.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstItemDet.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstItemHistory.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstModules.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstModulesAccess.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstModulesDet.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstPaymentReferences.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstPaymentReferencesDet.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstPaymentTerm.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstPaymentTermDet.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstProgram.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstProgramDet.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstProgramModules.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstSalesDiscount.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstSalesDiscountDet.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstStatus.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstStatusDet.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmmstStatusModules.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstUOM.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstUOMDet.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstUser.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstUserChangePassword.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstUserDet.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstUserUserAccess.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstUserUserAccessDuplicate.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmSysChooseCompany.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmSysJournalPost.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmSysLogin.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmSysMain.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmSysPostingOrCancelPostingGL.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraAccountPayable.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraAccountPayableDet.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraAccountReceivable.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraAccountReceivableDet.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraCost.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraCostDet.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraCostItem.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraDownPayment.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraDownPaymentDet.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraJournal.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraJournalDet.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraJournalItem.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraReceive.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraReceiveDet.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraReceiveReturn.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraReceiveReturnDet.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraSales.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraSalesDet.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraSalesPrintBonFaktur.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraSalesReturn.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraSalesReturnDet.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraSalesSplitReceive.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmViewCompany.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmViewOutstandingDownPayment.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmViewOutstandingReceiveForReturn.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmViewOutstandingSalesForReturn.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmViewProgram.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmViewProgramCompany.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.rptBonFaktur.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.rptBonTimbang.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.rptDeliveryOrder.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.usFormRemarks.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.vbproj.GenerateResource.Cache
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.exe.licenses
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.exe
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.xml
+C:\Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.pdb
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\bin\Debug\MPS.exe.config
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\bin\Debug\MPS.exe.manifest
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\bin\Debug\MPS.application
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\bin\Debug\MPS.exe
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\bin\Debug\MPS.pdb
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\bin\Debug\MPS.xml
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\bin\Debug\MPSLib.dll
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\bin\Debug\MPSLib.pdb
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\bin\Debug\MPSLib.xml
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.vbprojResolveAssemblyReference.cache
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.Resources.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstAccess.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstAccessDet.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstBusinessPartner.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstBusinessPartnerAssign.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstBusinessPartnerAssignItem.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstBusinessPartnerDet.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstBusinessPartnerHistory.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstBusinessPartnerPrice.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstBusinessPartnerPriceDet.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstChartOfAccount.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstChartOfAccountAssign.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstChartOfAccountAssignItem.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstChartOfAccountDet.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstChartOfAccountGroup.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstChartOfAccountGroupDet.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstChartOfAccountType.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstChartOfAccountTypeDet.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstCompany.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstCompanyDet.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstItem.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstItemDet.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstItemHistory.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstModules.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstModulesAccess.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstModulesDet.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstPaymentReferences.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstPaymentReferencesDet.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstPaymentTerm.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstPaymentTermDet.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstProgram.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstProgramDet.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstProgramModules.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstSalesDiscount.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstSalesDiscountDet.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstStatus.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstStatusDet.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmmstStatusModules.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstUOM.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstUOMDet.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstUser.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstUserChangePassword.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstUserDet.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstUserUserAccess.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstUserUserAccessDuplicate.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmSysBackupDBMS.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmSysChooseCompany.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmSysJournalPost.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmSysLogin.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmSysMain.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmSysPostingOrCancelPostingGL.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraAccountPayable.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraAccountPayableDet.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraAccountReceivable.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraAccountReceivableDet.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraCost.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraCostDet.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraCostItem.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraDownPayment.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraDownPaymentDet.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraDownPaymentDetVer1.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraDownPaymentVer1.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraJournal.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraJournalDet.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraJournalItem.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraReceive.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraReceiveDet.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraReceiveReturn.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraReceiveReturnDet.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraSales.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraSalesDet.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraSalesPrintBonFaktur.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraSalesReturn.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraSalesReturnDet.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraSalesSplitReceive.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmViewCompany.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmViewOutstandingDownPayment.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmViewOutstandingReceiveForReturn.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmViewOutstandingSalesForReturn.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmViewProgram.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmViewProgramCompany.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmReportPreview.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmRptBukuBesarVer00.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmRptKartuHutangVer00.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmRptKartuPiutangVer00.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmRptNeracaSaldoVer00.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.rptBonFaktur.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.rptBonTimbang.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.rptBukuBesarVer00.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.rptDeliveryOrder.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.rptKartuHutangVer00.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.rptKartuPiutangVer00.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.rptNeracaSaldoVer00.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.usFormRemarks.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.vbproj.GenerateResource.Cache
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.exe.licenses
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.exe.manifest
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.application
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.exe
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.xml
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.pdb
+D:\My Project\Desktop\Trading-TBS\MPS\MPS\obj\Debug\MPS.TrustInfo.xml
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\bin\Debug\MPS.exe.config
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\bin\Debug\MPS.exe.manifest
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\bin\Debug\MPS.application
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\bin\Debug\MPS.exe
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\bin\Debug\MPS.pdb
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\bin\Debug\MPS.xml
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\bin\Debug\MPSLib.dll
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\bin\Debug\MPSLib.pdb
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\bin\Debug\MPSLib.xml
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.vbprojResolveAssemblyReference.cache
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.Resources.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstAccess.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstAccessDet.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstBusinessPartner.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstBusinessPartnerAssign.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstBusinessPartnerAssignItem.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstBusinessPartnerDet.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstBusinessPartnerHistory.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstBusinessPartnerPrice.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstBusinessPartnerPriceDet.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstChartOfAccount.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstChartOfAccountAssign.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstChartOfAccountAssignItem.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstChartOfAccountDet.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstChartOfAccountGroup.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstChartOfAccountGroupDet.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstChartOfAccountType.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstChartOfAccountTypeDet.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstCompany.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstCompanyDet.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstItem.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstItemDet.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstItemHistory.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstModules.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstModulesAccess.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstModulesDet.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstPaymentReferences.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstPaymentReferencesDet.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstPaymentTerm.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstPaymentTermDet.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstProgram.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstProgramDet.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstProgramModules.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstSalesDiscount.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstSalesDiscountDet.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstStatus.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstStatusDet.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmmstStatusModules.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstUOM.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstUOMDet.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstUser.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstUserChangePassword.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstUserDet.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstUserUserAccess.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmMstUserUserAccessDuplicate.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmSysBackupDBMS.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmSysChooseCompany.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmSysJournalPost.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmSysLogin.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmSysMain.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmSysPostingOrCancelPostingGL.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraAccountPayable.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraAccountPayableDet.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraAccountReceivable.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraAccountReceivableDet.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraCost.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraCostDet.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraCostItem.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraDownPayment.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraDownPaymentDet.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraDownPaymentVer1Det.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraDownPaymentVer1.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraDownPaymentVer2.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraDownPaymentVer2Det.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraImportSales.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraJournal.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraJournalDet.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraJournalItem.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraReceive.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraReceiveDet.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraReceiveReturn.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraReceiveReturnDet.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraSales.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraSalesDet.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraSalesPrintBonFaktur.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraSalesReturn.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraSalesReturnDet.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraSalesService.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraSalesServiceDet.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraSalesServiceItem.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmTraSalesSplitReceive.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmViewCompany.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmViewOutstandingDownPayment.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmViewOutstandingReceiveForReturn.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmViewOutstandingSalesForReturn.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmViewProgram.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmViewProgramCompany.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmReportPreview.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmRptBukuBesarVer00.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmRptCostReportVer00.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmRptJournalReportVer00.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmRptKartuHutangPurchasePrice2Ver00.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmRptKartuHutangVer00.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmRptKartuPiutangVer00.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmRptLabaRugiVer00.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmRptNeracaSaldoVer00.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmRptNeracaVer00.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmRptSalesReportVer00.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmRptSalesServiceReportVer00.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.rptBonFaktur.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.rptBonFakturSalesServiceVer00.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.rptBonTimbang.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.rptBukuBesarVer00.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.rptCOAPerTypeVer00.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.rptCostReportVer00.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.rptDeliveryOrder.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.rptFakturBiayaPembayaranVer00.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.rptJournalReportVer00.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.rptKartuHutangVer00.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.rptKartuPiutangVer00.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.rptLabaRugiVer00.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.rptNeracaSaldoVer00.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.rptCOAPerGroupVer00.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.rptNeracaVer00.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.rptSalesReportVer00.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.rptSalesServiceReportVer00.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.usFormRemarks.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.vbproj.GenerateResource.Cache
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.exe.licenses
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.TrustInfo.xml
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.exe.manifest
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.application
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.exe
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.xml
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.pdb
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.rptFakturBiayaPenerimaanVer00.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmRptFakturBiayaVer00.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmRptFakturJurnalVer00.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPS\obj\Debug\MPS.frmSysSyncJournal.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\bin\Debug\MPS.exe.config
+C:\Project\Desktop\Calculator POS\MPS\MPS\bin\Debug\MPS.exe.manifest
+C:\Project\Desktop\Calculator POS\MPS\MPS\bin\Debug\MPS.application
+C:\Project\Desktop\Calculator POS\MPS\MPS\bin\Debug\MPS.exe
+C:\Project\Desktop\Calculator POS\MPS\MPS\bin\Debug\MPS.pdb
+C:\Project\Desktop\Calculator POS\MPS\MPS\bin\Debug\MPS.xml
+C:\Project\Desktop\Calculator POS\MPS\MPS\bin\Debug\MPSLib.dll
+C:\Project\Desktop\Calculator POS\MPS\MPS\bin\Debug\MPSLib.pdb
+C:\Project\Desktop\Calculator POS\MPS\MPS\bin\Debug\MPSLib.xml
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.vbprojResolveAssemblyReference.cache
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.Resources.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmMstAccess.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmMstAccessDet.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmMstBusinessPartner.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmMstBusinessPartnerAssign.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmMstBusinessPartnerAssignItem.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmMstBusinessPartnerDet.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmMstBusinessPartnerHistory.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmMstBusinessPartnerPrice.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmMstBusinessPartnerPriceDet.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmMstChartOfAccount.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmMstChartOfAccountAssign.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmMstChartOfAccountAssignItem.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmMstChartOfAccountDet.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmMstChartOfAccountGroup.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmMstChartOfAccountGroupDet.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmMstChartOfAccountType.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmMstChartOfAccountTypeDet.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmMstCompany.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmMstCompanyDet.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmMstItem.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmMstItemDet.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmMstItemHistory.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmMstModules.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmMstModulesAccess.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmMstModulesDet.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmMstPaymentReferences.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmMstPaymentReferencesDet.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmMstPaymentTerm.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmMstPaymentTermDet.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmMstProgram.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmMstProgramDet.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmMstProgramModules.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmMstSalesDiscount.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmMstSalesDiscountDet.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmMstStatus.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmMstStatusDet.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmmstStatusModules.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmMstUOM.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmMstUOMDet.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmMstUser.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmMstUserChangePassword.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmMstUserDet.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmMstUserUserAccess.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmMstUserUserAccessDuplicate.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmSysBackupDBMS.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmSysChooseCompany.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmSysJournalPost.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmSysLogin.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmSysMain.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmSysPostingOrCancelPostingGL.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmSysSyncJournal.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmTraCalculator.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmTraAccountPayable.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmTraAccountPayableDet.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmTraAccountReceivable.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmTraAccountReceivableDet.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmTraCost.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmTraCostDet.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmTraCostItem.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmTraDownPayment.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmTraDownPaymentDet.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmTraDownPaymentVer1Det.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmTraDownPaymentVer1.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmTraDownPaymentVer2.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmTraDownPaymentVer2Det.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmTraImportSales.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmTraJournal.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmTraJournalDet.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmTraJournalItem.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmTraReceive.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmTraReceiveDet.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmTraReceiveReturn.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmTraReceiveReturnDet.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmTraSales.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmTraSalesDet.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmTraSalesPrintBonFaktur.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmTraSalesReturn.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmTraSalesReturnDet.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmTraSalesService.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmTraSalesServiceDet.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmTraSalesServiceItem.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmTraSalesSplitReceive.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmTraCalculatorPayment.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmTraCalculatorDet.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmViewCompany.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmViewOutstandingDownPayment.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmViewOutstandingReceiveForReturn.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmViewOutstandingSalesForReturn.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmViewProgram.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmViewProgramCompany.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmReportPreview.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmRptBukuBesarVer00.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmRptCostReportVer00.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmRptFakturBiayaVer00.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmRptFakturJurnalVer00.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmRptJournalReportVer00.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmRptKartuHutangPurchasePrice2Ver00.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmRptKartuHutangVer00.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmRptKartuPiutangVer00.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmRptLabaRugiVer00.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmRptNeracaSaldoVer00.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmRptNeracaVer00.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmRptSalesReportVer00.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.frmRptSalesServiceReportVer00.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.rptBonCalculator.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.rptBonFaktur.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.rptBonFakturSalesServiceVer00.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.rptBonTimbang.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.rptBukuBesarVer00.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.rptCOAPerTypeVer00.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.rptCostReportVer00.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.rptDeliveryOrder.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.rptFakturBiayaPembayaranVer00.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.rptFakturBiayaPenerimaanVer00.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.rptJournalReportVer00.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.rptKartuHutangVer00.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.rptKartuPiutangVer00.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.rptLabaRugiVer00.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.rptNeracaSaldoVer00.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.rptCOAPerGroupVer00.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.rptNeracaVer00.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.rptSalesReportVer00.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.rptSalesServiceReportVer00.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.usFormRemarks.resources
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.vbproj.GenerateResource.Cache
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.exe.licenses
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.TrustInfo.xml
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.exe.manifest
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.application
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.exe
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.xml
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.pdb

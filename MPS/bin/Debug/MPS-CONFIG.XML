@@ -1,0 +1,14 @@
+<configuration>
+  <CONNECTION>
+    <!-- <SERVER>49.50.9.151</SERVER> -->
+	<SERVER>localhost</SERVER>
+    <DATABASE>CPOS</DATABASE>
+	<USERID>admin1</USERID>
+	<PASSWORD>Mantul#0001</PASSWORD>
+	<STARTFROM>2021/12/20</STARTFROM>
+    <COMPANY>MM</COMPANY>
+    <USE2FA>0</USE2FA>
+	<DSPATH>H:\Software\Andi.Wiradinata\Template\Original Image</DSPATH>
+	<DSTEMPPATH>H:\Software\Andi.Wiradinata\Template\Temporary Image</DSTEMPPATH>
+  </CONNECTION>
+</configuration>

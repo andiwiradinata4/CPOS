@@ -1,0 +1,40 @@
+D:\My Project\Desktop\TBS\MPS\MPSLib\bin\Debug\MPSLib.dll
+D:\My Project\Desktop\TBS\MPS\MPSLib\bin\Debug\MPSLib.pdb
+D:\My Project\Desktop\TBS\MPS\MPSLib\bin\Debug\MPSLib.xml
+D:\My Project\Desktop\TBS\MPS\MPSLib\obj\Debug\MPSLib.Resources.resources
+D:\My Project\Desktop\TBS\MPS\MPSLib\obj\Debug\MPSLib.vbproj.GenerateResource.Cache
+D:\My Project\Desktop\TBS\MPS\MPSLib\obj\Debug\MPSLib.dll
+D:\My Project\Desktop\TBS\MPS\MPSLib\obj\Debug\MPSLib.xml
+D:\My Project\Desktop\TBS\MPS\MPSLib\obj\Debug\MPSLib.pdb
+C:\Project\Desktop\Trading-TBS\MPS\MPSLib\bin\Debug\MPSLib.dll
+C:\Project\Desktop\Trading-TBS\MPS\MPSLib\bin\Debug\MPSLib.pdb
+C:\Project\Desktop\Trading-TBS\MPS\MPSLib\bin\Debug\MPSLib.xml
+C:\Project\Desktop\Trading-TBS\MPS\MPSLib\obj\Debug\MPSLib.Resources.resources
+C:\Project\Desktop\Trading-TBS\MPS\MPSLib\obj\Debug\MPSLib.vbproj.GenerateResource.Cache
+C:\Project\Desktop\Trading-TBS\MPS\MPSLib\obj\Debug\MPSLib.dll
+C:\Project\Desktop\Trading-TBS\MPS\MPSLib\obj\Debug\MPSLib.xml
+C:\Project\Desktop\Trading-TBS\MPS\MPSLib\obj\Debug\MPSLib.pdb
+D:\My Project\Desktop\Trading-TBS\MPS\MPSLib\bin\Debug\MPSLib.dll
+D:\My Project\Desktop\Trading-TBS\MPS\MPSLib\bin\Debug\MPSLib.pdb
+D:\My Project\Desktop\Trading-TBS\MPS\MPSLib\bin\Debug\MPSLib.xml
+D:\My Project\Desktop\Trading-TBS\MPS\MPSLib\obj\Debug\MPSLib.Resources.resources
+D:\My Project\Desktop\Trading-TBS\MPS\MPSLib\obj\Debug\MPSLib.vbproj.GenerateResource.Cache
+D:\My Project\Desktop\Trading-TBS\MPS\MPSLib\obj\Debug\MPSLib.dll
+D:\My Project\Desktop\Trading-TBS\MPS\MPSLib\obj\Debug\MPSLib.xml
+D:\My Project\Desktop\Trading-TBS\MPS\MPSLib\obj\Debug\MPSLib.pdb
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPSLib\bin\Debug\MPSLib.dll
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPSLib\bin\Debug\MPSLib.pdb
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPSLib\bin\Debug\MPSLib.xml
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPSLib\obj\Debug\MPSLib.Resources.resources
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPSLib\obj\Debug\MPSLib.vbproj.GenerateResource.Cache
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPSLib\obj\Debug\MPSLib.dll
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPSLib\obj\Debug\MPSLib.xml
+C:\Project\Desktop\Trading-TBS-00\Trading-TBS\MPS\MPSLib\obj\Debug\MPSLib.pdb
+C:\Project\Desktop\Calculator POS\MPS\MPSLib\bin\Debug\MPSLib.dll
+C:\Project\Desktop\Calculator POS\MPS\MPSLib\bin\Debug\MPSLib.pdb
+C:\Project\Desktop\Calculator POS\MPS\MPSLib\bin\Debug\MPSLib.xml
+C:\Project\Desktop\Calculator POS\MPS\MPSLib\obj\Debug\MPSLib.Resources.resources
+C:\Project\Desktop\Calculator POS\MPS\MPSLib\obj\Debug\MPSLib.vbproj.GenerateResource.Cache
+C:\Project\Desktop\Calculator POS\MPS\MPSLib\obj\Debug\MPSLib.dll
+C:\Project\Desktop\Calculator POS\MPS\MPSLib\obj\Debug\MPSLib.xml
+C:\Project\Desktop\Calculator POS\MPS\MPSLib\obj\Debug\MPSLib.pdb

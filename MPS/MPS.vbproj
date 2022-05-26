@@ -1,0 +1,1392 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{47919D8C-C757-4164-94F8-5EF67518383B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>MPS.My.MyApplication</StartupObject>
+    <RootNamespace>MPS</RootNamespace>
+    <AssemblyName>MPS</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>ftp://49.50.9.151:3399/C:/Software/Exe/</PublishUrl>
+    <Install>false</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>MPS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>MPS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>PresentationLayers\Icons\MyLogo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>948A1FBFFEAB64C2347604AC19710AA6893C4D45</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>MPS_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Charts.v16.2.Core, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.DataAccess.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Images.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Office.v16.2.Core, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Pdf.v16.2.Core, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.PivotGrid.v16.2.Core, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v16.2.Core, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.RichEdit.v16.2.Core, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Sparkline.v16.2.Core, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v16.2.UI, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpo.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGauges.v16.2.Core, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraReports.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v16.2.Extensions, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="MPSLib" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstAccess.designer.vb">
+      <DependentUpon>frmMstAccess.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstAccess.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstAccessDet.designer.vb">
+      <DependentUpon>frmMstAccessDet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstAccessDet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstBusinessPartner.designer.vb">
+      <DependentUpon>frmMstBusinessPartner.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstBusinessPartner.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstBusinessPartnerAssign.Designer.vb">
+      <DependentUpon>frmMstBusinessPartnerAssign.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstBusinessPartnerAssign.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstBusinessPartnerAssignItem.vb.Designer.vb">
+      <DependentUpon>frmMstBusinessPartnerAssignItem.vb.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstBusinessPartnerAssignItem.vb.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstBusinessPartnerDet.designer.vb">
+      <DependentUpon>frmMstBusinessPartnerDet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstBusinessPartnerDet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstBusinessPartnerHistory.designer.vb">
+      <DependentUpon>frmMstBusinessPartnerHistory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstBusinessPartnerHistory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstBusinessPartnerPrice.Designer.vb">
+      <DependentUpon>frmMstBusinessPartnerPrice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstBusinessPartnerPrice.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstBusinessPartnerPriceDet.Designer.vb">
+      <DependentUpon>frmMstBusinessPartnerPriceDet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstBusinessPartnerPriceDet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstChartOfAccount.designer.vb">
+      <DependentUpon>frmMstChartOfAccount.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstChartOfAccount.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstChartOfAccountAssign.designer.vb">
+      <DependentUpon>frmMstChartOfAccountAssign.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstChartOfAccountAssign.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstChartOfAccountAssignItem.designer.vb">
+      <DependentUpon>frmMstChartOfAccountAssignItem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstChartOfAccountAssignItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstChartOfAccountDet.designer.vb">
+      <DependentUpon>frmMstChartOfAccountDet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstChartOfAccountDet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstChartOfAccountGroup.designer.vb">
+      <DependentUpon>frmMstChartOfAccountGroup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstChartOfAccountGroup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstChartOfAccountGroupDet.designer.vb">
+      <DependentUpon>frmMstChartOfAccountGroupDet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstChartOfAccountGroupDet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstChartOfAccountType.Designer.vb">
+      <DependentUpon>frmMstChartOfAccountType.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstChartOfAccountType.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstChartOfAccountTypeDet.Designer.vb">
+      <DependentUpon>frmMstChartOfAccountTypeDet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstChartOfAccountTypeDet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstCompany.designer.vb">
+      <DependentUpon>frmMstCompany.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstCompany.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstCompanyDet.designer.vb">
+      <DependentUpon>frmMstCompanyDet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstCompanyDet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstItem.designer.vb">
+      <DependentUpon>frmMstItem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstItemDet.designer.vb">
+      <DependentUpon>frmMstItemDet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstItemDet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstItemHistory.designer.vb">
+      <DependentUpon>frmMstItemHistory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstItemHistory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstModules.designer.vb">
+      <DependentUpon>frmMstModules.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstModules.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstModulesAccess.designer.vb">
+      <DependentUpon>frmMstModulesAccess.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstModulesAccess.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstModulesDet.designer.vb">
+      <DependentUpon>frmMstModulesDet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstModulesDet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstPaymentReferences.designer.vb">
+      <DependentUpon>frmMstPaymentReferences.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstPaymentReferences.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstPaymentReferencesDet.designer.vb">
+      <DependentUpon>frmMstPaymentReferencesDet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstPaymentReferencesDet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstPaymentTerm.designer.vb">
+      <DependentUpon>frmMstPaymentTerm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstPaymentTerm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstPaymentTermDet.designer.vb">
+      <DependentUpon>frmMstPaymentTermDet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstPaymentTermDet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstProgram.designer.vb">
+      <DependentUpon>frmMstProgram.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstProgram.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstProgramDet.designer.vb">
+      <DependentUpon>frmMstProgramDet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstProgramDet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstProgramModules.designer.vb">
+      <DependentUpon>frmMstProgramModules.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstProgramModules.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstSalesDiscount.designer.vb">
+      <DependentUpon>frmMstSalesDiscount.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstSalesDiscount.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstSalesDiscountDet.designer.vb">
+      <DependentUpon>frmMstSalesDiscountDet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstSalesDiscountDet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstStatus.designer.vb">
+      <DependentUpon>frmMstStatus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstStatus.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstStatusDet.designer.vb">
+      <DependentUpon>frmMstStatusDet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstStatusDet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstStatusModules.designer.vb">
+      <DependentUpon>frmMstStatusModules.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstStatusModules.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstUOM.designer.vb">
+      <DependentUpon>frmMstUOM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstUOM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstUOMDet.designer.vb">
+      <DependentUpon>frmMstUOMDet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstUOMDet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstUser.designer.vb">
+      <DependentUpon>frmMstUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstUserChangePassword.designer.vb">
+      <DependentUpon>frmMstUserChangePassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstUserChangePassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstUserDet.designer.vb">
+      <DependentUpon>frmMstUserDet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstUserDet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstUserUserAccess.designer.vb">
+      <DependentUpon>frmMstUserUserAccess.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstUserUserAccess.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstUserUserAccessDuplicate.designer.vb">
+      <DependentUpon>frmMstUserUserAccessDuplicate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Master\frmMstUserUserAccessDuplicate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\System\frmSysBackupDBMS.Designer.vb">
+      <DependentUpon>frmSysBackupDBMS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\System\frmSysBackupDBMS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\System\frmSysChooseCompany.designer.vb">
+      <DependentUpon>frmSysChooseCompany.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\System\frmSysChooseCompany.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\System\frmSysJournalPost.designer.vb">
+      <DependentUpon>frmSysJournalPost.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\System\frmSysJournalPost.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\System\frmSysLogin.designer.vb">
+      <DependentUpon>frmSysLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\System\frmSysLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\System\frmSysMain.designer.vb">
+      <DependentUpon>frmSysMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\System\frmSysMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\System\frmSysPostingOrCancelPostingGL.designer.vb">
+      <DependentUpon>frmSysPostingOrCancelPostingGL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\System\frmSysPostingOrCancelPostingGL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\System\frmSysSyncJournal.Designer.vb">
+      <DependentUpon>frmSysSyncJournal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\System\frmSysSyncJournal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\Calculator\frmTraCalculator.Designer.vb">
+      <DependentUpon>frmTraCalculator.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\Calculator\frmTraCalculator.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraAccountPayable.designer.vb">
+      <DependentUpon>frmTraAccountPayable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraAccountPayable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraAccountPayableDet.designer.vb">
+      <DependentUpon>frmTraAccountPayableDet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraAccountPayableDet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraAccountReceivable.designer.vb">
+      <DependentUpon>frmTraAccountReceivable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraAccountReceivable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraAccountReceivableDet.designer.vb">
+      <DependentUpon>frmTraAccountReceivableDet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraAccountReceivableDet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraCost.designer.vb">
+      <DependentUpon>frmTraCost.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraCost.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraCostDet.designer.vb">
+      <DependentUpon>frmTraCostDet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraCostDet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraCostItem.designer.vb">
+      <DependentUpon>frmTraCostItem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraCostItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraDownPayment.Designer.vb">
+      <DependentUpon>frmTraDownPayment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraDownPayment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraDownPaymentDet.Designer.vb">
+      <DependentUpon>frmTraDownPaymentDet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraDownPaymentDet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraDownPaymentVer1Det.Designer.vb">
+      <DependentUpon>frmTraDownPaymentVer1Det.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraDownPaymentVer1Det.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraDownPaymentVer1.Designer.vb">
+      <DependentUpon>frmTraDownPaymentVer1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraDownPaymentVer1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraDownPaymentVer2.Designer.vb">
+      <DependentUpon>frmTraDownPaymentVer2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraDownPaymentVer2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraDownPaymentVer2Det.Designer.vb">
+      <DependentUpon>frmTraDownPaymentVer2Det.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraDownPaymentVer2Det.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraImportSales.Designer.vb">
+      <DependentUpon>frmTraImportSales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraImportSales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraJournal.designer.vb">
+      <DependentUpon>frmTraJournal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraJournal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraJournalDet.designer.vb">
+      <DependentUpon>frmTraJournalDet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraJournalDet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraJournalItem.designer.vb">
+      <DependentUpon>frmTraJournalItem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraJournalItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraReceive.designer.vb">
+      <DependentUpon>frmTraReceive.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraReceive.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraReceiveDet.designer.vb">
+      <DependentUpon>frmTraReceiveDet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraReceiveDet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraReceiveReturn.Designer.vb">
+      <DependentUpon>frmTraReceiveReturn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraReceiveReturn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraReceiveReturnDet.Designer.vb">
+      <DependentUpon>frmTraReceiveReturnDet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraReceiveReturnDet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraSales.designer.vb">
+      <DependentUpon>frmTraSales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraSales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraSalesDet.designer.vb">
+      <DependentUpon>frmTraSalesDet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraSalesDet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraSalesPrintBonFaktur.designer.vb">
+      <DependentUpon>frmTraSalesPrintBonFaktur.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraSalesPrintBonFaktur.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraSalesReturn.Designer.vb">
+      <DependentUpon>frmTraSalesReturn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraSalesReturn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraSalesReturnDet.Designer.vb">
+      <DependentUpon>frmTraSalesReturnDet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraSalesReturnDet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraSalesService.Designer.vb">
+      <DependentUpon>frmTraSalesService.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraSalesService.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraSalesServiceDet.Designer.vb">
+      <DependentUpon>frmTraSalesServiceDet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraSalesServiceDet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraSalesServiceItem.Designer.vb">
+      <DependentUpon>frmTraSalesServiceItem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraSalesServiceItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraSalesSplitReceive.designer.vb">
+      <DependentUpon>frmTraSalesSplitReceive.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\frmTraSalesSplitReceive.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\Calculator\frmTraCalculatorPayment.designer.vb">
+      <DependentUpon>frmTraCalculatorPayment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\Calculator\frmTraCalculatorPayment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\Calculator\frmTraCalculatorDet.designer.vb">
+      <DependentUpon>frmTraCalculatorDet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\Transaction\Calculator\frmTraCalculatorDet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\View\frmViewCompany.Designer.vb">
+      <DependentUpon>frmViewCompany.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\View\frmViewCompany.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\View\frmViewOutstandingDownPayment.Designer.vb">
+      <DependentUpon>frmViewOutstandingDownPayment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\View\frmViewOutstandingDownPayment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\View\frmViewOutstandingReceiveForReturn.Designer.vb">
+      <DependentUpon>frmViewOutstandingReceiveForReturn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\View\frmViewOutstandingReceiveForReturn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\View\frmViewOutstandingSalesForReturn.Designer.vb">
+      <DependentUpon>frmViewOutstandingSalesForReturn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\View\frmViewOutstandingSalesForReturn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\View\frmViewProgram.designer.vb">
+      <DependentUpon>frmViewProgram.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\View\frmViewProgram.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\View\frmViewProgramCompany.Designer.vb">
+      <DependentUpon>frmViewProgramCompany.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Forms\View\frmViewProgramCompany.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports1\frmReportPreview.designer.vb">
+      <DependentUpon>frmReportPreview.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports1\frmReportPreview.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports1\frmRptBukuBesarVer00.Designer.vb">
+      <DependentUpon>frmRptBukuBesarVer00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports1\frmRptBukuBesarVer00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports1\frmRptCostReportVer00.Designer.vb">
+      <DependentUpon>frmRptCostReportVer00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports1\frmRptCostReportVer00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports1\frmRptFakturBiayaVer00.Designer.vb">
+      <DependentUpon>frmRptFakturBiayaVer00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports1\frmRptFakturBiayaVer00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports1\frmRptFakturJurnalVer00.Designer.vb">
+      <DependentUpon>frmRptFakturJurnalVer00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports1\frmRptFakturJurnalVer00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports1\frmRptJournalReportVer00.designer.vb">
+      <DependentUpon>frmRptJournalReportVer00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports1\frmRptJournalReportVer00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports1\frmRptKartuHutangPurchasePrice2Ver00.Designer.vb">
+      <DependentUpon>frmRptKartuHutangPurchasePrice2Ver00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports1\frmRptKartuHutangPurchasePrice2Ver00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports1\frmRptKartuHutangVer00.Designer.vb">
+      <DependentUpon>frmRptKartuHutangVer00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports1\frmRptKartuHutangVer00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports1\frmRptKartuPiutangVer00.Designer.vb">
+      <DependentUpon>frmRptKartuPiutangVer00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports1\frmRptKartuPiutangVer00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports1\frmRptLabaRugiVer00.Designer.vb">
+      <DependentUpon>frmRptLabaRugiVer00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports1\frmRptLabaRugiVer00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports1\frmRptNeracaSaldoVer00.Designer.vb">
+      <DependentUpon>frmRptNeracaSaldoVer00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports1\frmRptNeracaSaldoVer00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports1\frmRptNeracaVer00.Designer.vb">
+      <DependentUpon>frmRptNeracaVer00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports1\frmRptNeracaVer00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports1\frmRptSalesReportVer00.Designer.vb">
+      <DependentUpon>frmRptSalesReportVer00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports1\frmRptSalesReportVer00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports1\frmRptSalesServiceReportVer00.Designer.vb">
+      <DependentUpon>frmRptSalesServiceReportVer00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports1\frmRptSalesServiceReportVer00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports2\rptBonCalculator.Designer.vb">
+      <DependentUpon>rptBonCalculator.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports2\rptBonCalculator.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports2\rptBonFaktur.designer.vb">
+      <DependentUpon>rptBonFaktur.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports2\rptBonFaktur.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports2\rptBonFakturSalesServiceVer00.Designer.vb">
+      <DependentUpon>rptBonFakturSalesServiceVer00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports2\rptBonFakturSalesServiceVer00.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports2\rptBonTimbang.designer.vb">
+      <DependentUpon>rptBonTimbang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports2\rptBonTimbang.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports2\rptBukuBesarVer00.Designer.vb">
+      <DependentUpon>rptBukuBesarVer00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports2\rptBukuBesarVer00.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports2\rptCOAPerTypeVer00.Designer.vb">
+      <DependentUpon>rptCOAPerTypeVer00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports2\rptCOAPerTypeVer00.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports2\rptCostReportVer00.Designer.vb">
+      <DependentUpon>rptCostReportVer00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports2\rptCostReportVer00.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports2\rptDeliveryOrder.designer.vb">
+      <DependentUpon>rptDeliveryOrder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports2\rptDeliveryOrder.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports2\rptFakturBiayaPembayaranVer00.Designer.vb">
+      <DependentUpon>rptFakturBiayaPembayaranVer00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports2\rptFakturBiayaPembayaranVer00.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports2\rptFakturBiayaPenerimaanVer00.Designer.vb">
+      <DependentUpon>rptFakturBiayaPenerimaanVer00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports2\rptFakturBiayaPenerimaanVer00.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports2\rptJournalReportVer00.designer.vb">
+      <DependentUpon>rptJournalReportVer00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports2\rptJournalReportVer00.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports2\rptKartuHutangVer00.Designer.vb">
+      <DependentUpon>rptKartuHutangVer00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports2\rptKartuHutangVer00.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports2\rptKartuPiutangVer00.Designer.vb">
+      <DependentUpon>rptKartuPiutangVer00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports2\rptKartuPiutangVer00.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports2\rptLabaRugiVer00.Designer.vb">
+      <DependentUpon>rptLabaRugiVer00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports2\rptLabaRugiVer00.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports2\rptNeracaSaldoVer00.Designer.vb">
+      <DependentUpon>rptNeracaSaldoVer00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports2\rptNeracaSaldoVer00.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports2\rptCOAPerGroupVer00.Designer.vb">
+      <DependentUpon>rptCOAPerGroupVer00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports2\rptCOAPerGroupVer00.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports2\rptNeracaVer00.Designer.vb">
+      <DependentUpon>rptNeracaVer00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports2\rptNeracaVer00.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports2\rptSalesReportVer00.Designer.vb">
+      <DependentUpon>rptSalesReportVer00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports2\rptSalesReportVer00.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports2\rptSalesServiceReportVer00.Designer.vb">
+      <DependentUpon>rptSalesServiceReportVer00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports2\rptSalesServiceReportVer00.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\SharedLib\Components\usCheckListBoxControl.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\SharedLib\Components\usComboBox.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\SharedLib\Components\usComboBoxEdit.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\SharedLib\Components\usFormRemarks.designer.vb">
+      <DependentUpon>usFormRemarks.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\SharedLib\Components\usFormRemarks.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\SharedLib\Components\usNumericDevExpress.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\SharedLib\Components\usTextBox.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\SharedLib\Components\usToolBar.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\SharedLib\Components\usXtraScrollTabControl.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PresentationLayers\SharedLib\Functions\modSharedForm.vb" />
+    <Compile Include="PresentationLayers\SharedLib\Functions\modUsFolderBrowserDialog.vb" />
+    <Compile Include="PresentationLayers\SharedLib\Functions\usDefCons.vb" />
+    <Compile Include="PresentationLayers\SharedLib\Functions\usDefGrid.vb" />
+    <Compile Include="PresentationLayers\SharedLib\Functions\usDOColors.vb" />
+    <Compile Include="PresentationLayers\SharedLib\Functions\usDxExportFormat.vb" />
+    <Compile Include="PresentationLayers\SharedLib\Functions\usDXHelper.vb" />
+    <Compile Include="PresentationLayers\SharedLib\Functions\usForm.vb" />
+    <Compile Include="PresentationLayers\SharedLib\Functions\usXML.vb" />
+    <Compile Include="PresentationLayers\SharedLib\Components\usNumeric.vb">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Master\frmMstAccess.resx">
+      <DependentUpon>frmMstAccess.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Master\frmMstAccessDet.resx">
+      <DependentUpon>frmMstAccessDet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Master\frmMstBusinessPartner.resx">
+      <DependentUpon>frmMstBusinessPartner.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Master\frmMstBusinessPartnerAssign.resx">
+      <DependentUpon>frmMstBusinessPartnerAssign.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Master\frmMstBusinessPartnerAssignItem.vb.resx">
+      <DependentUpon>frmMstBusinessPartnerAssignItem.vb.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Master\frmMstBusinessPartnerDet.resx">
+      <DependentUpon>frmMstBusinessPartnerDet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Master\frmMstBusinessPartnerHistory.resx">
+      <DependentUpon>frmMstBusinessPartnerHistory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Master\frmMstBusinessPartnerPrice.resx">
+      <DependentUpon>frmMstBusinessPartnerPrice.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Master\frmMstBusinessPartnerPriceDet.resx">
+      <DependentUpon>frmMstBusinessPartnerPriceDet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Master\frmMstChartOfAccount.resx">
+      <DependentUpon>frmMstChartOfAccount.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Master\frmMstChartOfAccountAssign.resx">
+      <DependentUpon>frmMstChartOfAccountAssign.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Master\frmMstChartOfAccountAssignItem.resx">
+      <DependentUpon>frmMstChartOfAccountAssignItem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Master\frmMstChartOfAccountDet.resx">
+      <DependentUpon>frmMstChartOfAccountDet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Master\frmMstChartOfAccountGroup.resx">
+      <DependentUpon>frmMstChartOfAccountGroup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Master\frmMstChartOfAccountGroupDet.resx">
+      <DependentUpon>frmMstChartOfAccountGroupDet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Master\frmMstChartOfAccountType.resx">
+      <DependentUpon>frmMstChartOfAccountType.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Master\frmMstChartOfAccountTypeDet.resx">
+      <DependentUpon>frmMstChartOfAccountTypeDet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Master\frmMstCompany.resx">
+      <DependentUpon>frmMstCompany.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Master\frmMstCompanyDet.resx">
+      <DependentUpon>frmMstCompanyDet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Master\frmMstItem.resx">
+      <DependentUpon>frmMstItem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Master\frmMstItemDet.resx">
+      <DependentUpon>frmMstItemDet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Master\frmMstItemHistory.resx">
+      <DependentUpon>frmMstItemHistory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Master\frmMstModules.resx">
+      <DependentUpon>frmMstModules.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Master\frmMstModulesAccess.resx">
+      <DependentUpon>frmMstModulesAccess.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Master\frmMstModulesDet.resx">
+      <DependentUpon>frmMstModulesDet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Master\frmMstPaymentReferences.resx">
+      <DependentUpon>frmMstPaymentReferences.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Master\frmMstPaymentReferencesDet.resx">
+      <DependentUpon>frmMstPaymentReferencesDet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Master\frmMstPaymentTerm.resx">
+      <DependentUpon>frmMstPaymentTerm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Master\frmMstPaymentTermDet.resx">
+      <DependentUpon>frmMstPaymentTermDet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Master\frmMstProgram.resx">
+      <DependentUpon>frmMstProgram.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Master\frmMstProgramDet.resx">
+      <DependentUpon>frmMstProgramDet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Master\frmMstProgramModules.resx">
+      <DependentUpon>frmMstProgramModules.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Master\frmMstSalesDiscount.resx">
+      <DependentUpon>frmMstSalesDiscount.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Master\frmMstSalesDiscountDet.resx">
+      <DependentUpon>frmMstSalesDiscountDet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Master\frmMstStatus.resx">
+      <DependentUpon>frmMstStatus.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Master\frmMstStatusDet.resx">
+      <DependentUpon>frmMstStatusDet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Master\frmMstStatusModules.resx">
+      <DependentUpon>frmMstStatusModules.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Master\frmMstUOM.resx">
+      <DependentUpon>frmMstUOM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Master\frmMstUOMDet.resx">
+      <DependentUpon>frmMstUOMDet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Master\frmMstUser.resx">
+      <DependentUpon>frmMstUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Master\frmMstUserChangePassword.resx">
+      <DependentUpon>frmMstUserChangePassword.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Master\frmMstUserDet.resx">
+      <DependentUpon>frmMstUserDet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Master\frmMstUserUserAccess.resx">
+      <DependentUpon>frmMstUserUserAccess.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Master\frmMstUserUserAccessDuplicate.resx">
+      <DependentUpon>frmMstUserUserAccessDuplicate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\System\frmSysBackupDBMS.resx">
+      <DependentUpon>frmSysBackupDBMS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\System\frmSysChooseCompany.resx">
+      <DependentUpon>frmSysChooseCompany.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\System\frmSysJournalPost.resx">
+      <DependentUpon>frmSysJournalPost.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\System\frmSysLogin.resx">
+      <DependentUpon>frmSysLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\System\frmSysMain.resx">
+      <DependentUpon>frmSysMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\System\frmSysPostingOrCancelPostingGL.resx">
+      <DependentUpon>frmSysPostingOrCancelPostingGL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\System\frmSysSyncJournal.resx">
+      <DependentUpon>frmSysSyncJournal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Transaction\Calculator\frmTraCalculator.resx">
+      <DependentUpon>frmTraCalculator.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Transaction\frmTraAccountPayable.resx">
+      <DependentUpon>frmTraAccountPayable.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Transaction\frmTraAccountPayableDet.resx">
+      <DependentUpon>frmTraAccountPayableDet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Transaction\frmTraAccountReceivable.resx">
+      <DependentUpon>frmTraAccountReceivable.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Transaction\frmTraAccountReceivableDet.resx">
+      <DependentUpon>frmTraAccountReceivableDet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Transaction\frmTraCost.resx">
+      <DependentUpon>frmTraCost.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Transaction\frmTraCostDet.resx">
+      <DependentUpon>frmTraCostDet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Transaction\frmTraCostItem.resx">
+      <DependentUpon>frmTraCostItem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Transaction\frmTraDownPayment.resx">
+      <DependentUpon>frmTraDownPayment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Transaction\frmTraDownPaymentDet.resx">
+      <DependentUpon>frmTraDownPaymentDet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Transaction\frmTraDownPaymentVer1Det.resx">
+      <DependentUpon>frmTraDownPaymentVer1Det.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Transaction\frmTraDownPaymentVer1.resx">
+      <DependentUpon>frmTraDownPaymentVer1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Transaction\frmTraDownPaymentVer2.resx">
+      <DependentUpon>frmTraDownPaymentVer2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Transaction\frmTraDownPaymentVer2Det.resx">
+      <DependentUpon>frmTraDownPaymentVer2Det.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Transaction\frmTraImportSales.resx">
+      <DependentUpon>frmTraImportSales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Transaction\frmTraJournal.resx">
+      <DependentUpon>frmTraJournal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Transaction\frmTraJournalDet.resx">
+      <DependentUpon>frmTraJournalDet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Transaction\frmTraJournalItem.resx">
+      <DependentUpon>frmTraJournalItem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Transaction\frmTraReceive.resx">
+      <DependentUpon>frmTraReceive.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Transaction\frmTraReceiveDet.resx">
+      <DependentUpon>frmTraReceiveDet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Transaction\frmTraReceiveReturn.resx">
+      <DependentUpon>frmTraReceiveReturn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Transaction\frmTraReceiveReturnDet.resx">
+      <DependentUpon>frmTraReceiveReturnDet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Transaction\frmTraSales.resx">
+      <DependentUpon>frmTraSales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Transaction\frmTraSalesDet.resx">
+      <DependentUpon>frmTraSalesDet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Transaction\frmTraSalesPrintBonFaktur.resx">
+      <DependentUpon>frmTraSalesPrintBonFaktur.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Transaction\frmTraSalesReturn.resx">
+      <DependentUpon>frmTraSalesReturn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Transaction\frmTraSalesReturnDet.resx">
+      <DependentUpon>frmTraSalesReturnDet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Transaction\frmTraSalesService.resx">
+      <DependentUpon>frmTraSalesService.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Transaction\frmTraSalesServiceDet.resx">
+      <DependentUpon>frmTraSalesServiceDet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Transaction\frmTraSalesServiceItem.resx">
+      <DependentUpon>frmTraSalesServiceItem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Transaction\frmTraSalesSplitReceive.resx">
+      <DependentUpon>frmTraSalesSplitReceive.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Transaction\Calculator\frmTraCalculatorPayment.resx">
+      <DependentUpon>frmTraCalculatorPayment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\Transaction\Calculator\frmTraCalculatorDet.resx">
+      <DependentUpon>frmTraCalculatorDet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\View\frmViewCompany.resx">
+      <DependentUpon>frmViewCompany.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\View\frmViewOutstandingDownPayment.resx">
+      <DependentUpon>frmViewOutstandingDownPayment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\View\frmViewOutstandingReceiveForReturn.resx">
+      <DependentUpon>frmViewOutstandingReceiveForReturn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\View\frmViewOutstandingSalesForReturn.resx">
+      <DependentUpon>frmViewOutstandingSalesForReturn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\View\frmViewProgram.resx">
+      <DependentUpon>frmViewProgram.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Forms\View\frmViewProgramCompany.resx">
+      <DependentUpon>frmViewProgramCompany.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Reports1\frmReportPreview.resx">
+      <DependentUpon>frmReportPreview.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Reports1\frmRptBukuBesarVer00.resx">
+      <DependentUpon>frmRptBukuBesarVer00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Reports1\frmRptCostReportVer00.resx">
+      <DependentUpon>frmRptCostReportVer00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Reports1\frmRptFakturBiayaVer00.resx">
+      <DependentUpon>frmRptFakturBiayaVer00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Reports1\frmRptFakturJurnalVer00.resx">
+      <DependentUpon>frmRptFakturJurnalVer00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Reports1\frmRptJournalReportVer00.resx">
+      <DependentUpon>frmRptJournalReportVer00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Reports1\frmRptKartuHutangPurchasePrice2Ver00.resx">
+      <DependentUpon>frmRptKartuHutangPurchasePrice2Ver00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Reports1\frmRptKartuHutangVer00.resx">
+      <DependentUpon>frmRptKartuHutangVer00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Reports1\frmRptKartuPiutangVer00.resx">
+      <DependentUpon>frmRptKartuPiutangVer00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Reports1\frmRptLabaRugiVer00.resx">
+      <DependentUpon>frmRptLabaRugiVer00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Reports1\frmRptNeracaSaldoVer00.resx">
+      <DependentUpon>frmRptNeracaSaldoVer00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Reports1\frmRptNeracaVer00.resx">
+      <DependentUpon>frmRptNeracaVer00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Reports1\frmRptSalesReportVer00.resx">
+      <DependentUpon>frmRptSalesReportVer00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Reports1\frmRptSalesServiceReportVer00.resx">
+      <DependentUpon>frmRptSalesServiceReportVer00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Reports2\rptBonCalculator.resx">
+      <DependentUpon>rptBonCalculator.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Reports2\rptBonFaktur.resx">
+      <DependentUpon>rptBonFaktur.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Reports2\rptBonFakturSalesServiceVer00.resx">
+      <DependentUpon>rptBonFakturSalesServiceVer00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Reports2\rptBonTimbang.resx">
+      <DependentUpon>rptBonTimbang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Reports2\rptBukuBesarVer00.resx">
+      <DependentUpon>rptBukuBesarVer00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Reports2\rptCOAPerTypeVer00.resx">
+      <DependentUpon>rptCOAPerTypeVer00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Reports2\rptCostReportVer00.resx">
+      <DependentUpon>rptCostReportVer00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Reports2\rptDeliveryOrder.resx">
+      <DependentUpon>rptDeliveryOrder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Reports2\rptFakturBiayaPembayaranVer00.resx">
+      <DependentUpon>rptFakturBiayaPembayaranVer00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Reports2\rptFakturBiayaPenerimaanVer00.resx">
+      <DependentUpon>rptFakturBiayaPenerimaanVer00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Reports2\rptJournalReportVer00.resx">
+      <DependentUpon>rptJournalReportVer00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Reports2\rptKartuHutangVer00.resx">
+      <DependentUpon>rptKartuHutangVer00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Reports2\rptKartuPiutangVer00.resx">
+      <DependentUpon>rptKartuPiutangVer00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Reports2\rptLabaRugiVer00.resx">
+      <DependentUpon>rptLabaRugiVer00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Reports2\rptNeracaSaldoVer00.resx">
+      <DependentUpon>rptNeracaSaldoVer00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Reports2\rptCOAPerGroupVer00.resx">
+      <DependentUpon>rptCOAPerGroupVer00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Reports2\rptNeracaVer00.resx">
+      <DependentUpon>rptNeracaVer00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Reports2\rptSalesReportVer00.resx">
+      <DependentUpon>rptSalesReportVer00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Reports2\rptSalesServiceReportVer00.resx">
+      <DependentUpon>rptSalesServiceReportVer00.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\SharedLib\Components\usFormRemarks.resx">
+      <DependentUpon>usFormRemarks.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MPS_TemporaryKey.pfx" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MPSLib\MPSLib.vbproj">
+      <Project>{d2c04d4c-5ebb-412f-8a74-ea4267d0697f}</Project>
+      <Name>MPSLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="PresentationLayers\Icons\Add.ico" />
+    <EmbeddedResource Include="PresentationLayers\Icons\Alt.ico" />
+    <EmbeddedResource Include="PresentationLayers\Icons\Approved.ico" />
+    <EmbeddedResource Include="PresentationLayers\Icons\Assign.ico" />
+    <EmbeddedResource Include="PresentationLayers\Icons\Calculation.ico" />
+    <EmbeddedResource Include="PresentationLayers\Icons\Calendar.ico" />
+    <EmbeddedResource Include="PresentationLayers\Icons\Calender.ico" />
+    <EmbeddedResource Include="PresentationLayers\Icons\Cancel.ico" />
+    <EmbeddedResource Include="PresentationLayers\Icons\Checked.ico" />
+    <EmbeddedResource Include="PresentationLayers\Icons\Close.ico" />
+    <EmbeddedResource Include="PresentationLayers\Icons\Computer.ico" />
+    <EmbeddedResource Include="PresentationLayers\Icons\Copy.ico" />
+    <EmbeddedResource Include="PresentationLayers\Icons\Db.ico" />
+    <EmbeddedResource Include="PresentationLayers\Icons\DbImport.ico" />
+    <EmbeddedResource Include="PresentationLayers\Icons\Delete.ico" />
+    <EmbeddedResource Include="PresentationLayers\Icons\Detail.ico" />
+    <EmbeddedResource Include="PresentationLayers\Icons\Down.ico" />
+    <EmbeddedResource Include="PresentationLayers\Icons\Edit.ico" />
+    <EmbeddedResource Include="PresentationLayers\Icons\Email.ico" />
+    <EmbeddedResource Include="PresentationLayers\Icons\Excel.ico" />
+    <EmbeddedResource Include="PresentationLayers\Icons\Get.ico" />
+    <EmbeddedResource Include="PresentationLayers\Icons\History.ico" />
+    <EmbeddedResource Include="PresentationLayers\Icons\Hold.ico" />
+    <EmbeddedResource Include="PresentationLayers\Icons\Invoice.ico" />
+    <EmbeddedResource Include="PresentationLayers\Icons\Misc.ico" />
+    <EmbeddedResource Include="PresentationLayers\Icons\MyLogo.ico" />
+    <EmbeddedResource Include="PresentationLayers\Icons\New.ico" />
+    <EmbeddedResource Include="PresentationLayers\Icons\Open.ico" />
+    <EmbeddedResource Include="PresentationLayers\Icons\Option.ico" />
+    <EmbeddedResource Include="PresentationLayers\Icons\Price.ico" />
+    <EmbeddedResource Include="PresentationLayers\Icons\Print.ico" />
+    <EmbeddedResource Include="PresentationLayers\Icons\Refresh.ico" />
+    <EmbeddedResource Include="PresentationLayers\Icons\Reject.ico" />
+    <EmbeddedResource Include="PresentationLayers\Icons\Save.ico" />
+    <EmbeddedResource Include="PresentationLayers\Icons\Sub.ico" />
+    <EmbeddedResource Include="PresentationLayers\Icons\Submit.ico" />
+    <EmbeddedResource Include="PresentationLayers\Icons\Supplier.ico" />
+    <EmbeddedResource Include="PresentationLayers\Icons\Track.ico" />
+    <EmbeddedResource Include="PresentationLayers\Icons\Unapproved.ico" />
+    <EmbeddedResource Include="PresentationLayers\Icons\Up.ico" />
+    <EmbeddedResource Include="PresentationLayers\Icons\User.ico" />
+    <EmbeddedResource Include="PresentationLayers\Icons\Word.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
