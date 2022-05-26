@@ -1552,14 +1552,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MPS.exe" size="5779456">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MPS.exe" size="5780992">
       <assemblyIdentity name="MPS" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>N1foFnDOSS3OZjAOumKIGl6IlRZGDiBrCZ/LpcV8EmM=</dsig:DigestValue>
+        <dsig:DigestValue>ryGHuGlWyOGXbm+jcvanj+OMorxSv9jHnObBqyR7fbU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -1571,7 +1571,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>55Vn2WL/tdkl9dpYYyvF+i6lEi7PNyZItYauSFvLtR4=</dsig:DigestValue>
+        <dsig:DigestValue>VRzmrsvMAvXKH1jN8nn3nzk5mF3OhUUQmZnbT1sTy4E=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

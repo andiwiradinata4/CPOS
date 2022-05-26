@@ -267,7 +267,6 @@ Namespace UI
             Dim bolReturn As Boolean
             frmMe.Cursor = Cursors.WaitCursor
             Try
-                'crPrint.CreateDocument()
                 crPrint.DataSource = dtData
                 crPrint.CreateDocument(True)
                 crPrint.ShowPreviewMarginLines = False
@@ -277,31 +276,11 @@ Namespace UI
                 Using tool As New ReportPrintTool(crPrint)
                     tool.Print()
                 End Using
-                'Dim frmDetail As New frmReportPreview
-                'With frmDetail
-                '    .docViewer.DocumentSource = crPrint
-                '    .pgExportButton.Enabled = True
-                '    .Text = strDisplayName
-                '    .WindowState = FormWindowState.Maximized
-                '    .Show()
-                'End With
-
-                'Using cr As New rptBonCalculator
-                '    cr.CreateDocument(True)
-                '    cr.DataSource = dtData
-                '    cr.ShowPreviewMarginLines = False
-                '    cr.ShowPrintMarginsWarning = False
-                '    cr.DisplayName = strDisplayName
-
-                '    Using tool As New ReportPrintTool(cr)
-                '        tool.Print()
-                '    End Using
-                'End Using
+             
                 bolReturn = True
             Catch ex As Exception
                 UI.usForm.frmMessageBox(ex.Message)
             Finally
-                'crPrint.Dispose()
                 frmMe.Cursor = Cursors.Default
             End Try
             Return bolReturn

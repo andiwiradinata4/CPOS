@@ -252,6 +252,7 @@ Public Class frmTraCalculatorDet
     End Sub
 
     Private Sub frmSalesInput_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        UI.usForm.SetIcon(Me, "MyLogo")
         bolLogOut = False
         prvSetGrid()
         prvSetColumn()
@@ -261,6 +262,7 @@ Public Class frmTraCalculatorDet
         tmrNow.Start()
         prvFillForm()
         If Not pubIsFromMain Then
+            btnChangePassword.Visible = False
             btnClear.Visible = False
             btnPay.Visible = False
             btnSales.Visible = False

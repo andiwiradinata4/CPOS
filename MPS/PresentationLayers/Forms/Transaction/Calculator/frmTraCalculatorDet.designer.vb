@@ -268,6 +268,7 @@ Partial Class frmTraCalculatorDet
         Me.btnChangePassword.Size = New System.Drawing.Size(439, 58)
         Me.btnChangePassword.TabIndex = 0
         Me.btnChangePassword.Text = "F9 - Ganti Password"
+        Me.btnChangePassword.Visible = False
         '
         'btnClear
         '
