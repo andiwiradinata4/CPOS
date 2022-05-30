@@ -43,7 +43,7 @@
         Try
             BL.Calculator.SaveData(bolIsNew, clsData, clsDataDet)
             If UI.usForm.frmAskQuestion("Apakah Anda ingin cetak struk?") Then
-                UI.usForm.PrintDirect(Me, New rptBonCalculator, BL.Calculator.ListDataStruk(clsData.ID), "Struk-" & clsData.ID)
+                UI.usForm.PrintDirect(Me, New rptBonCalculator870, BL.Calculator.ListDataStruk(clsData.ID), "Struk-" & clsData.ID)
             End If
             bolIsSuccess = True
             Me.Close()

@@ -776,6 +776,12 @@
     <Compile Include="PresentationLayers\Reports2\rptBonCalculator.vb">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="PresentationLayers\Reports2\rptBonCalculator870.Designer.vb">
+      <DependentUpon>rptBonCalculator870.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayers\Reports2\rptBonCalculator870.vb">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="PresentationLayers\Reports2\rptBonFaktur.designer.vb">
       <DependentUpon>rptBonFaktur.vb</DependentUpon>
     </Compile>
@@ -1246,6 +1252,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PresentationLayers\Reports2\rptBonCalculator.resx">
       <DependentUpon>rptBonCalculator.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayers\Reports2\rptBonCalculator870.resx">
+      <DependentUpon>rptBonCalculator870.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PresentationLayers\Reports2\rptBonFaktur.resx">
       <DependentUpon>rptBonFaktur.vb</DependentUpon>

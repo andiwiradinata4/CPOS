@@ -553,3 +553,4 @@ C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.application
 C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.exe
 C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.xml
 C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.pdb
+C:\Project\Desktop\Calculator POS\MPS\MPS\obj\Debug\MPS.rptBonCalculator870.resources

@@ -267,6 +267,7 @@ Namespace UI
             Dim bolReturn As Boolean
             frmMe.Cursor = Cursors.WaitCursor
             Try
+                'crPrint = New rptBonCalculator
                 crPrint.DataSource = dtData
                 crPrint.CreateDocument(True)
                 crPrint.ShowPreviewMarginLines = False
@@ -276,7 +277,7 @@ Namespace UI
                 Using tool As New ReportPrintTool(crPrint)
                     tool.Print()
                 End Using
-             
+
                 bolReturn = True
             Catch ex As Exception
                 UI.usForm.frmMessageBox(ex.Message)

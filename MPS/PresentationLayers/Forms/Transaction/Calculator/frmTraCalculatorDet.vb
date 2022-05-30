@@ -83,9 +83,9 @@ Public Class frmTraCalculatorDet
         txtValueCombine.Value = 0
         cboSymbol.SelectedIndex = 0
         dtpDate.Value = Now
-        intBPID = 0
-        txtBPName.Text = ""
-        txtBPAddress.Text = ""
+        'intBPID = 0
+        'txtBPName.Text = ""
+        'txtBPAddress.Text = ""
     End Sub
 
     Private Sub prvPay()
@@ -123,16 +123,26 @@ Public Class frmTraCalculatorDet
             Next
         End With
 
-        Dim frmDetail As New frmTraCalculatorPayment
-        With frmDetail
-            .pubIsNew = pubIsNew
-            .pubData = clsData
-            .pubDataDetail = clsDataDetailAll
-            .ShowDialog()
-            If .pubIsSuccess Then
-                prvClear()
+        Try
+            BL.Calculator.SaveData(pubIsNew, clsData, clsDataDetailAll)
+            If UI.usForm.frmAskQuestion("Apakah Anda ingin cetak struk?") Then
+                UI.usForm.PrintDirect(Me, New rptBonCalculator, BL.Calculator.ListDataStruk(clsData.ID), "Struk-" & clsData.ID)
             End If
-        End With
+            prvClear()
+        Catch ex As Exception
+            UI.usForm.frmMessageBox(ex.Message)
+        End Try
+
+        'Dim frmDetail As New frmTraCalculatorPayment
+        'With frmDetail
+        '    .pubIsNew = pubIsNew
+        '    .pubData = clsData
+        '    .pubDataDetail = clsDataDetailAll
+        '    .ShowDialog()
+        '    If .pubIsSuccess Then
+        '        prvClear()
+        '    End If
+        'End With
     End Sub
 
     Private Sub prvDelete()
@@ -234,7 +244,10 @@ Public Class frmTraCalculatorDet
             prvChangePassword()
         ElseIf e.KeyCode = Keys.F10 Then
             prvClear()
-        ElseIf e.KeyCode = Keys.F11 Then
+            intBPID = 0
+            txtBPName.Text = ""
+            txtBPAddress.Text = ""
+        ElseIf e.KeyCode = Keys.F11 Or e.KeyCode = Keys.Divide Then
             prvPay()
         ElseIf e.KeyCode = Keys.F12 Then
             prvViewSales()
@@ -292,6 +305,9 @@ Public Class frmTraCalculatorDet
 
     Private Sub btnClear_Click(sender As Object, e As EventArgs) Handles btnClear.Click
         prvClear()
+        intBPID = 0
+        txtBPName.Text = ""
+        txtBPAddress.Text = ""
     End Sub
 
     Private Sub btnPay_Click(sender As Object, e As EventArgs) Handles btnPay.Click
