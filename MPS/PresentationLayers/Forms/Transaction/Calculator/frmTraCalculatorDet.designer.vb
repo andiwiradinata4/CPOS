@@ -41,8 +41,8 @@ Partial Class frmTraCalculatorDet
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.btnChangePassword = New DevExpress.XtraEditors.SimpleButton()
         Me.btnClear = New DevExpress.XtraEditors.SimpleButton()
-        Me.btnPay = New DevExpress.XtraEditors.SimpleButton()
         Me.btnSales = New DevExpress.XtraEditors.SimpleButton()
+        Me.btnPay = New DevExpress.XtraEditors.SimpleButton()
         Me.TableLayoutPanel4 = New System.Windows.Forms.TableLayoutPanel()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.txtValueCombine = New MPS.usNumeric()
@@ -245,8 +245,8 @@ Partial Class frmTraCalculatorDet
         Me.Panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel2.Controls.Add(Me.btnChangePassword)
         Me.Panel2.Controls.Add(Me.btnClear)
-        Me.Panel2.Controls.Add(Me.btnPay)
         Me.Panel2.Controls.Add(Me.btnSales)
+        Me.Panel2.Controls.Add(Me.btnPay)
         Me.Panel2.Controls.Add(Me.TableLayoutPanel4)
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel2.Location = New System.Drawing.Point(833, 3)
@@ -267,7 +267,7 @@ Partial Class frmTraCalculatorDet
         Me.btnChangePassword.Name = "btnChangePassword"
         Me.btnChangePassword.Size = New System.Drawing.Size(439, 58)
         Me.btnChangePassword.TabIndex = 0
-        Me.btnChangePassword.Text = "F9 - Ganti Password"
+        Me.btnChangePassword.Text = "F8 - Ganti Password"
         Me.btnChangePassword.Visible = False
         '
         'btnClear
@@ -283,22 +283,7 @@ Partial Class frmTraCalculatorDet
         Me.btnClear.Name = "btnClear"
         Me.btnClear.Size = New System.Drawing.Size(439, 58)
         Me.btnClear.TabIndex = 1
-        Me.btnClear.Text = "F10 - Hapus Data"
-        '
-        'btnPay
-        '
-        Me.btnPay.Appearance.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.btnPay.Appearance.Font = New System.Drawing.Font("Tahoma", 17.0!, System.Drawing.FontStyle.Bold)
-        Me.btnPay.Appearance.Options.UseBackColor = True
-        Me.btnPay.Appearance.Options.UseFont = True
-        Me.btnPay.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.btnPay.Image = CType(resources.GetObject("btnPay.Image"), System.Drawing.Image)
-        Me.btnPay.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleRight
-        Me.btnPay.Location = New System.Drawing.Point(0, 467)
-        Me.btnPay.Name = "btnPay"
-        Me.btnPay.Size = New System.Drawing.Size(439, 59)
-        Me.btnPay.TabIndex = 2
-        Me.btnPay.Text = "F11 - Proses Bayar"
+        Me.btnClear.Text = "F9 - Hapus Data"
         '
         'btnSales
         '
@@ -309,11 +294,26 @@ Partial Class frmTraCalculatorDet
         Me.btnSales.Dock = System.Windows.Forms.DockStyle.Bottom
         Me.btnSales.Image = CType(resources.GetObject("btnSales.Image"), System.Drawing.Image)
         Me.btnSales.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleRight
-        Me.btnSales.Location = New System.Drawing.Point(0, 526)
+        Me.btnSales.Location = New System.Drawing.Point(0, 467)
         Me.btnSales.Name = "btnSales"
         Me.btnSales.Size = New System.Drawing.Size(439, 60)
         Me.btnSales.TabIndex = 3
-        Me.btnSales.Text = "F12 - Data Penjualan"
+        Me.btnSales.Text = "F10 - Data Penjualan"
+        '
+        'btnPay
+        '
+        Me.btnPay.Appearance.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.btnPay.Appearance.Font = New System.Drawing.Font("Tahoma", 17.0!, System.Drawing.FontStyle.Bold)
+        Me.btnPay.Appearance.Options.UseBackColor = True
+        Me.btnPay.Appearance.Options.UseFont = True
+        Me.btnPay.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.btnPay.Image = CType(resources.GetObject("btnPay.Image"), System.Drawing.Image)
+        Me.btnPay.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleRight
+        Me.btnPay.Location = New System.Drawing.Point(0, 527)
+        Me.btnPay.Name = "btnPay"
+        Me.btnPay.Size = New System.Drawing.Size(439, 59)
+        Me.btnPay.TabIndex = 2
+        Me.btnPay.Text = "F12 - Proses Bayar"
         '
         'TableLayoutPanel4
         '

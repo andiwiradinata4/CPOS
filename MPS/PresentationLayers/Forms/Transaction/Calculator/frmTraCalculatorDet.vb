@@ -240,16 +240,16 @@ Public Class frmTraCalculatorDet
             txtValue.Focus()
         ElseIf e.KeyCode = Keys.F1 Then
             prvGetBP()
-        ElseIf e.KeyCode = Keys.F9 Then
+        ElseIf e.KeyCode = Keys.F8 Then
             prvChangePassword()
-        ElseIf e.KeyCode = Keys.F10 Then
+        ElseIf e.KeyCode = Keys.F9 Then
             prvClear()
             intBPID = 0
             txtBPName.Text = ""
             txtBPAddress.Text = ""
-        ElseIf e.KeyCode = Keys.F11 Or e.KeyCode = Keys.Divide Then
+        ElseIf e.KeyCode = Keys.F12 Or e.KeyCode = Keys.Divide Then
             prvPay()
-        ElseIf e.KeyCode = Keys.F12 Then
+        ElseIf e.KeyCode = Keys.F10 Then
             prvViewSales()
         ElseIf e.KeyCode = Keys.Enter Then
             If cboSymbol.SelectedIndex = 0 Then
